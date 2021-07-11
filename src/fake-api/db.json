@@ -1,0 +1,94 @@
+{
+  "users": [
+    {
+      "fullName": "MUSLIM ABDUL JABBAR",
+      "username": "muslimabdul8",
+      "email": "muslimabdul8@gmail.com",
+      "password": "12qwaszx",
+      "id": 1
+    },
+    {
+      "fullName": "AJI",
+      "username": "AJI21",
+      "email": "aji@gmail.com",
+      "password": "12qwaszx",
+      "role": "user",
+      "id": 2
+    },
+    {
+      "fullName": "oktaviana kiranty",
+      "username": "via",
+      "email": "okiranty@gmail.com",
+      "password": "12qwaszx",
+      "role": "user",
+      "id": 3
+    },
+    {
+      "fullName": "oktaviana kiranty",
+      "username": "via",
+      "email": "okiranty@gmail.com",
+      "password": "12qwaszx",
+      "role": "user",
+      "id": 4
+    },
+    {
+      "fullName": "oktavia",
+      "username": "via98",
+      "email": "okiranty@gmail.com",
+      "password": "12qwaszx",
+      "role": "user",
+      "id": 5
+    },
+    {
+      "fullName": "MJ",
+      "username": "MJ98",
+      "email": "MJ@vision-teknik.com",
+      "password": "12qwaszx",
+      "role": "user",
+      "id": 6
+    },
+    {
+      "fullName": "muslim",
+      "username": "MUSLIM",
+      "email": "muslimabdul8@gmail.com",
+      "password": "12qwaszx",
+      "role": "user",
+      "id": 7
+    },
+    {
+      "fullName": "muslim",
+      "username": "muslimabdul",
+      "email": "muslim@gmail.com",
+      "password": "12qwaszx",
+      "role": "user",
+      "id": 8
+    },
+    {
+      "fullName": "AJI",
+      "username": "AJICATUR",
+      "email": "AJi@ymail.com",
+      "password": "12wqaszv",
+      "role": "user",
+      "id": 9
+    },
+    {
+      "fullName": "Alizar",
+      "username": "alizar52",
+      "email": "alizar@gmail.com",
+      "password": "12qwaszx",
+      "role": "user",
+      "id": 10
+    },
+    {
+      "fullName": "afizah",
+      "username": "afizah",
+      "email": "afi@gmail.com",
+      "password": "12qwaszx",
+      "role": "user",
+      "id": 11
+    }
+  ],
+  "transactions": [],
+  "products": [],
+  "carts": []
+}
