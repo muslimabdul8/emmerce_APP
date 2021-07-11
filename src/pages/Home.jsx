@@ -94,11 +94,11 @@ class Home extends React.Component{
                         </div>
                         <div className="mt-3">
                             <div className="d-flex flex-row justify-content-between align-items-center">
-                                <button onClick={this.prevPageHandler} className="btn btn-dark">
+                                <button disabled={this.state.page === 1} onClick={this.prevPageHandler} className="btn btn-dark">
                                     {"<"}
                                 </button>
                                 <div className="text-center">Page {this.state.page} of {this.state.maxPage}</div>
-                                <button onClick={this.nextPageHandler} className="btn btn-dark">
+                                <button disabled={this.state.page === this.state.maxPage} onClick={this.nextPageHandler} className="btn btn-dark">
                                     {">"}
                                 </button>
                             </div>
