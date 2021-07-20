@@ -9,30 +9,32 @@ class MyNavbar extends React.Component{
     render(){
         return(
         <div>
-            <Navbar color="light" light>
-                <NavbarBrand>MJ LTD</NavbarBrand>
+            <Navbar color="info" light>
+                <NavbarBrand>
+                    <Link className="m-4 link-dark" style={{ textDecoration: "none" }} to="/">Emmerce</Link>
+                </NavbarBrand>
                 <Nav>
                     {
                         this.props.userGlobal.username ? 
                         <>
                     <NavItem>
-                        <NavbarText className="nav">Hello, {this.props.userGlobal.username}</NavbarText>
+                        <NavbarText className="nav text-light">Hello, {this.props.userGlobal.username}</NavbarText>
                     </NavItem>
                     <UncontrolledDropdown nav inNavbar>
-                        <DropdownToggle nav caret>
+                        <DropdownToggle className="mx-3 text-dark" nav caret>
                             Pages
                         </DropdownToggle>
-                        <DropdownMenu right>
+                        <DropdownMenu>
                             <DropdownItem>
-                               <Link to="/cart" >Cart</Link>
+                               <Link style={{ textDecoration: "none" }} className="text-dark" to="/cart" >Cart({this.props.cartGlobal.cartList.length}) </Link>
                             </DropdownItem>
                             <DropdownItem>
-                            <Link to="/history">History</Link>
+                            <Link style={{ textDecoration: "none" }} className="text-dark" to="/history">History</Link>
                             </DropdownItem>
                             {
                                 this.props.userGlobal.role === "admin"?
                             <DropdownItem>
-                            <Link to="/admin">Admin</Link>
+                            <Link style={{ textDecoration: "none" }} to="/admin">Admin</Link>
                             </DropdownItem>
                             : null
                             }
@@ -44,9 +46,9 @@ class MyNavbar extends React.Component{
                     </UncontrolledDropdown>
                         </>
                         :
-                        <NavItem>
+                        <NavItem className="mx-5">
                             <NavbarText>
-                                <Link to="/login">Login</Link> | <Link to="/register">Register</Link>
+                                <Link  style={{ textDecoration: "none" }} to="/login">Login</Link> | <Link  style={{ textDecoration: "none" }} to="/register">Register</Link>
                             </NavbarText>
                         </NavItem>
                     }
@@ -58,7 +60,8 @@ class MyNavbar extends React.Component{
 }
 const mapStateToProps =(state)=>{
  return{
-     userGlobal:state.user
+     userGlobal:state.user,
+     cartGlobal :state.cart,
  }
 }
 

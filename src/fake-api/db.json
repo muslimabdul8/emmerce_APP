@@ -7,145 +7,182 @@
       "password": "12qwaszx",
       "role": "user",
       "id": 1
+    },
+    {
+      "fullName": "MASTER",
+      "username": "MASTER",
+      "email": "MASTER@gmail.com",
+      "password": "master",
+      "role": "admin",
+      "id": 2
     }
   ],
-  "transactions": [],
+  "transactions": [
+    {
+      "userId": 1,
+      "address": "BEKASI",
+      "recipientName": "MUSLIM ABDUL JABBAR",
+      "totalPrice": 89250,
+      "totalPayment": 100000,
+      "transactionDate": "19-7-2021",
+      "transactionItems": [
+        {
+          "userId": 1,
+          "productId": 3,
+          "price": 17000,
+          "productName": "iPhone 12 Pro Max",
+          "productImage": "https://cdn.eraspace.com/pub/media/catalog/product/i/p/iphone_12_pro_max_pacific_blue_1_1.jpg",
+          "quantity": 5,
+          "id": 1
+        }
+      ],
+      "id": 1
+    }
+  ],
   "products": [
     {
       "id": 1,
-      "productName" : "MacBook Pro",
-      "price" : "20.000.000",
+      "productName": "MacBook Pro",
+      "price": 230000,
       "productImage": "https://p.ipricegroup.com/uploaded_7d820b7c74812b919ec484142484b968.jpg",
-      "description" : " laptop paling andal dari kami yang dilengkapi prosesor cepat, grafis mengagumkan, Touch Bar, dan layar Retina spektakuler",
-      "category" : "Macbook"
+      "description": " laptop paling andal dari kami yang dilengkapi prosesor cepat, grafis mengagumkan, Touch Bar, dan layar Retina spektakuler",
+      "category": "Laptop"
     },
     {
       "id": 2,
-      "productName" : "MacBook Air",
-      "price" :"20.000.000",
+      "productName": "MacBook Air",
+      "price": 20000,
       "productImage": "https://images.tokopedia.net/img/cache/500-square/VqbcmM/2021/2/3/eeafbfc3-49fd-4cfe-8132-b7256720d090.jpg?ect=4g",
-      "description" : " laptop paling andal dari kami yang dilengkapi prosesor cepat, grafis mengagumkan, Touch Bar, dan layar Retina spektakuler",
-      "category" : "Macbook"
+      "description": " laptop paling andal dari kami yang dilengkapi prosesor cepat, grafis mengagumkan, Touch Bar, dan layar Retina spektakuler",
+      "category": "Laptop"
     },
     {
       "id": 3,
-      "productName" : "Iphone 12 Pro Max",
-      "price" :"17.000.000",
+      "productName": "iPhone 12 Pro Max",
+      "price": 17000,
       "productImage": "https://cdn.eraspace.com/pub/media/catalog/product/i/p/iphone_12_pro_max_pacific_blue_1_1.jpg",
-      "description" : " iPhone 12 Pro Max. Layar Super Retina XDR 6,7 inci yang lebih besar.1 Ceramic Shield dengan ketahanan jatuh empat kali lebih baik.2 Fotografi pencahayaan rendah yang menakjubkan dengan sistem kamera Pro terbaik di iPhone, dan rentang zoom optik 5x.",
-      "category" : "Macbook"
+      "description": " iPhone 12 Pro Max. Layar Super Retina XDR 6,7 inci yang lebih besar.1 Ceramic Shield dengan ketahanan jatuh empat kali lebih baik.2 Fotografi pencahayaan rendah yang menakjubkan dengan sistem kamera Pro terbaik di iPhone, dan rentang zoom optik 5x.",
+      "category": "Smartphone"
     },
     {
       "id": 4,
-      "productName" : "IMac Pro",
-      "price" :"30.000.000",
+      "productName": "IMac Pro",
+      "price": 30000,
       "productImage": "https://cdn.eraspace.com/pub/media/catalog/product/i/m/imac-pro-2_1.jpg",
-      "description" : " laptop paling andal dari kami yang dilengkapi prosesor cepat, grafis mengagumkan, Touch Bar, dan layar Retina spektakuler",
-      "category" : "Macbook"
+      "description": " laptop paling andal dari kami yang dilengkapi prosesor cepat, grafis mengagumkan, Touch Bar, dan layar Retina spektakuler",
+      "category": "Laptop"
     },
     {
       "id": 5,
-      "productName" : "Apple Watch Series 6",
-      "price" :"7.000.000",
+      "productName": "Apple Watch Series 6",
+      "price": 7000,
       "productImage": "https://cdn.eraspace.com/pub/media/catalog/product/a/w/aws-6-40mm-gps-blue-gold-pink-sand-sport-band-1_1.jpg",
-      "description" : " laptop paling andal dari kami yang dilengkapi prosesor cepat, grafis mengagumkan, Touch Bar, dan layar Retina spektakuler",
-      "category" : "Macbook"
+      "description": " laptop paling andal dari kami yang dilengkapi prosesor cepat, grafis mengagumkan, Touch Bar, dan layar Retina spektakuler",
+      "category": "Aksesoris"
     },
     {
       "id": 6,
-      "productName" : "iPad Pro Gen 5",
-      "price" :"13.000.000",
+      "productName": "iPad Pro Gen 5",
+      "price": 13000,
       "productImage": "https://cdn.eraspace.com/pub/media/catalog/product/a/p/apple_ipad_pro_2021_12.9-inci_wi-fi_cellular_space_grey_1_1_1_1_1_1_1.jpg",
-      "description" : " laptop paling andal dari kami yang dilengkapi prosesor cepat, grafis mengagumkan, Touch Bar, dan layar Retina spektakuler",
-      "category" : "Macbook"
+      "description": " laptop paling andal dari kami yang dilengkapi prosesor cepat, grafis mengagumkan, Touch Bar, dan layar Retina spektakuler",
+      "category": "Smartphone"
     },
     {
       "id": 7,
-      "productName" : "iPhone 11 Pro Max",
-      "price" :"20.000.000",
+      "productName": "iPhone 11 Pro Max",
+      "price": 11000,
       "productImage": "https://cdn.eraspace.com/pub/media/catalog/product/a/p/apple_iphone_11_pro_max_midnight_green_1_6_1.jpg",
-      "description" : " laptop paling andal dari kami yang dilengkapi prosesor cepat, grafis mengagumkan, Touch Bar, dan layar Retina spektakuler",
-      "category" : "Macbook"
+      "description": " laptop paling andal dari kami yang dilengkapi prosesor cepat, grafis mengagumkan, Touch Bar, dan layar Retina spektakuler",
+      "category": "Smartphone"
     },
     {
       "id": 8,
-      "productName" : "Apple TV 4K 64GB",
-      "price" :"5.000.000",
+      "productName": "Apple TV 4K 64GB",
+      "price": 4000,
       "productImage": "https://cdn.eraspace.com/pub/media/catalog/product/i/b/ibx_apple_tv_4k_3.jpg",
-      "description" : " laptop paling andal dari kami yang dilengkapi prosesor cepat, grafis mengagumkan, Touch Bar, dan layar Retina spektakuler",
-      "category" : "Macbook"
+      "description": " laptop paling andal dari kami yang dilengkapi prosesor cepat, grafis mengagumkan, Touch Bar, dan layar Retina spektakuler",
+      "category": "Aksesoris"
     },
     {
       "id": 9,
-      "productName" : "AirPods Pro",
-      "price" :"4.000.000",
+      "productName": "AirPods Pro",
+      "price": 4500,
       "productImage": "https://cdn.eraspace.com/pub/media/catalog/product/a/p/apple_airpods_pro_2_1_2.jpg",
-      "description" : " laptop paling andal dari kami yang dilengkapi prosesor cepat, grafis mengagumkan, Touch Bar, dan layar Retina spektakuler",
-      "category" : "Macbook"
+      "description": " laptop paling andal dari kami yang dilengkapi prosesor cepat, grafis mengagumkan, Touch Bar, dan layar Retina spektakuler",
+      "category": "Aksesoris"
     },
     {
       "id": 10,
-      "productName" : "IT Intercom Bluetooth",
-      "price" :"900.000",
+      "productName": "IT Intercom Bluetooth",
+      "price": 900,
       "productImage": "https://cdn.eraspace.com/pub/media/catalog/product/i/t/it_intercom_bluetooth_headset_r8_1_1.jpg",
-      "description" : " laptop paling andal dari kami yang dilengkapi prosesor cepat, grafis mengagumkan, Touch Bar, dan layar Retina spektakuler",
-      "category" : "Macbook"
+      "description": " laptop paling andal dari kami yang dilengkapi prosesor cepat, grafis mengagumkan, Touch Bar, dan layar Retina spektakuler",
+      "category": "Aksesoris"
     },
     {
       "id": 11,
-      "productName" : "Garmin inReach Explorer ",
-      "price" :"8.000.000",
+      "productName": "Garmin inReach Explorer ",
+      "price": 8000,
       "productImage": "https://images-na.ssl-images-amazon.com/images/I/81FC5r-IBQL._AC_SX522_.jpg",
-      "description" : " laptop paling andal dari kami yang dilengkapi prosesor cepat, grafis mengagumkan, Touch Bar, dan layar Retina spektakuler",
-      "category" : "Macbook"
+      "description": " laptop paling andal dari kami yang dilengkapi prosesor cepat, grafis mengagumkan, Touch Bar, dan layar Retina spektakuler",
+      "category": "Aksesoris"
     },
     {
       "id": 12,
-      "productName" : "DJI Mavic Air 2S",
-      "price" :"20.000.000",
+      "productName": "DJI Mavic Air 2S",
+      "price": 11000,
       "productImage": "https://cdn.eraspace.com/pub/media/catalog/product/d/j/dji_mavic_air_2s_1_1.jpg",
-      "description" : " laptop paling andal dari kami yang dilengkapi prosesor cepat, grafis mengagumkan, Touch Bar, dan layar Retina spektakuler",
-      "category" : "Macbook"
+      "description": " laptop paling andal dari kami yang dilengkapi prosesor cepat, grafis mengagumkan, Touch Bar, dan layar Retina spektakuler",
+      "category": "Aksesoris"
     },
     {
       "id": 13,
-      "productName" : "12 Pro Leather Case with MagSafe",
-      "price" :"20.000.000",
+      "productName": "12 Pro Leather Case with MagSafe",
+      "price": 11000,
       "productImage": "https://cdn.eraspace.com/pub/media/catalog/product/a/p/apple_iphone_12_12_pro_leather_case_with_magsafe_saddle_brown_5_1.jpg",
-      "description" : " laptop paling andal dari kami yang dilengkapi prosesor cepat, grafis mengagumkan, Touch Bar, dan layar Retina spektakuler",
-      "category" : "Macbook"
+      "description": " laptop paling andal dari kami yang dilengkapi prosesor cepat, grafis mengagumkan, Touch Bar, dan layar Retina spektakuler",
+      "category": "Aksesoris"
     },
     {
       "id": 14,
-      "productName" : "Huawei X Gentle Monster Eyewear II",
-      "price" :"20.000.000",
+      "productName": "Huawei X Gentle Monster Eyewear II",
+      "price": 11000,
       "productImage": "https://cdn.eraspace.com/pub/media/wysiwyg/Deskripsi_PDP/ImagePDP2020/AHW-55033575-BLAj.jpg",
-      "description" : " laptop paling andal dari kami yang dilengkapi prosesor cepat, grafis mengagumkan, Touch Bar, dan layar Retina spektakuler",
-      "category" : "Macbook"
+      "description": " laptop paling andal dari kami yang dilengkapi prosesor cepat, grafis mengagumkan, Touch Bar, dan layar Retina spektakuler",
+      "category": "Aksesoris"
     },
     {
       "id": 15,
-      "productName" : "MacBook Air",
-      "price" :"20.000.000",
+      "productName": "MacBook Air",
+      "price": 11000,
       "productImage": "https://images.tokopedia.net/img/cache/500-square/VqbcmM/2021/2/3/eeafbfc3-49fd-4cfe-8132-b7256720d090.jpg?ect=4g",
-      "description" : " laptop paling andal dari kami yang dilengkapi prosesor cepat, grafis mengagumkan, Touch Bar, dan layar Retina spektakuler",
-      ",category" : "Macbook"
+      "description": " laptop paling andal dari kami yang dilengkapi prosesor cepat, grafis mengagumkan, Touch Bar, dan layar Retina spektakuler",
+      "category": "Laptop"
     },
     {
       "id": 16,
-      "productName" : "MacBook Air",
-      "price" :"20.000.000",
+      "productName": "MacBook Air",
+      "price": 11000,
       "productImage": "https://images.tokopedia.net/img/cache/500-square/VqbcmM/2021/2/3/eeafbfc3-49fd-4cfe-8132-b7256720d090.jpg?ect=4g",
-      "description" : " laptop paling andal dari kami yang dilengkapi prosesor cepat, grafis mengagumkan, Touch Bar, dan layar Retina spektakuler",
-      "category" : "Macbook"
+      "description": " laptop paling andal dari kami yang dilengkapi prosesor cepat, grafis mengagumkan, Touch Bar, dan layar Retina spektakuler",
+      "category": "Laptop"
     },
     {
       "id": 17,
-      "productName" : "MacBook Air",
-      "price" :"20.000.000",
+      "productName": "MacBook Air",
+      "price": 11000,
       "productImage": "https://images.tokopedia.net/img/cache/500-square/VqbcmM/2021/2/3/eeafbfc3-49fd-4cfe-8132-b7256720d090.jpg?ect=4g",
-      "description" : " laptop paling andal dari kami yang dilengkapi prosesor cepat, grafis mengagumkan, Touch Bar, dan layar Retina spektakuler",
-      "category" : "Macbook"
+      "description": " laptop paling andal dari kami yang dilengkapi prosesor cepat, grafis mengagumkan, Touch Bar, dan layar Retina spektakuler",
+      "category": "Laptop"
+    },
+    {
+      "productName": "MacBook Air",
+      "price": 1000000,
+      "productImage": "https://images.tokopedia.net/img/cache/500-square/VqbcmM/2021/2/3/eeafbfc3-49fd-4cfe-8132-b7256720d090.jpg?ect=4g",
+      "description": "laptop paling andal dari kami yang dilengkapi prosesor cepat, grafis mengagumkan, Touch Bar, dan layar Retina spektakuler",
+      "category": "Laptop",
+      "id": 18
     }
   ],
   "carts": []
