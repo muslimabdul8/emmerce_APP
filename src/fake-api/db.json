@@ -11,7 +11,7 @@
     {
       "fullName": "MASTER",
       "username": "MASTER",
-      "email": "MASTER@gmail.com",
+      "email": "master@gmail.com",
       "password": "master",
       "role": "admin",
       "id": 2
@@ -20,11 +20,11 @@
   "transactions": [
     {
       "userId": 1,
-      "address": "BEKASI",
-      "recipientName": "MUSLIM ABDUL JABBAR",
-      "totalPrice": 89250,
-      "totalPayment": 100000,
-      "transactionDate": "19-7-2021",
+      "address": "Jalan",
+      "recipientName": "Muslim",
+      "totalPrice": 17850,
+      "totalPayment": 20000,
+      "transactionDate": "20-7-2021",
       "transactionItems": [
         {
           "userId": 1,
@@ -32,11 +32,60 @@
           "price": 17000,
           "productName": "iPhone 12 Pro Max",
           "productImage": "https://cdn.eraspace.com/pub/media/catalog/product/i/p/iphone_12_pro_max_pacific_blue_1_1.jpg",
-          "quantity": 5,
+          "quantity": 1,
           "id": 1
         }
       ],
       "id": 1
+    },
+    {
+      "userId": 1,
+      "address": "bekasi",
+      "recipientName": "via",
+      "totalPrice": 157500,
+      "totalPayment": 200000,
+      "transactionDate": "20-7-2021",
+      "transactionItems": [
+        {
+          "userId": 1,
+          "productId": 4,
+          "price": 30000,
+          "productName": "IMac Pro",
+          "productImage": "https://cdn.eraspace.com/pub/media/catalog/product/i/m/imac-pro-2_1.jpg",
+          "quantity": 5,
+          "id": 1
+        }
+      ],
+      "id": 2
+    },
+    {
+      "userId": 1,
+      "address": "JKT",
+      "recipientName": "Abdi",
+      "totalPrice": 84000,
+      "totalPayment": 100000,
+      "transactionDate": "20-7-2021",
+      "transactionItems": [
+        {
+          "userId": 1,
+          "productId": 2,
+          "price": 20000,
+          "productName": "MacBook Air",
+          "productImage": "https://images.tokopedia.net/img/cache/500-square/VqbcmM/2021/2/3/eeafbfc3-49fd-4cfe-8132-b7256720d090.jpg?ect=4g",
+          "quantity": 1,
+          "id": 1
+        },
+        {
+          "userId": 1,
+          "productId": 4,
+          "price": 30000,
+          "productName": "IMac Pro",
+          "productImage": "https://cdn.eraspace.com/pub/media/catalog/product/i/m/imac-pro-2_1.jpg",
+          "quantity": 2,
+          "id": 2
+        }
+      ],
+      "id": 3
     }
   ],
   "products": [
@@ -185,5 +234,15 @@
       "id": 18
     }
   ],
-  "carts": []
+  "carts": [
+    {
+      "userId": 2,
+      "productId": 12,
+      "price": 11000,
+      "productName": "DJI Mavic Air 2S",
+      "productImage": "https://cdn.eraspace.com/pub/media/catalog/product/d/j/dji_mavic_air_2s_1_1.jpg",
+      "quantity": 1,
+      "id": 1
+    }
+  ]
 }

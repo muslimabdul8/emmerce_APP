@@ -9,7 +9,7 @@ class MyNavbar extends React.Component{
     render(){
         return(
         <div>
-            <Navbar color="info" light>
+            <Navbar color="danger">
                 <NavbarBrand>
                     <Link className="m-4 link-dark" style={{ textDecoration: "none" }} to="/">Emmerce</Link>
                 </NavbarBrand>

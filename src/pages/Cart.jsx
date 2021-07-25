@@ -29,7 +29,7 @@ renderCart=()=>{
         return(
             <tr>
                 <td className="align-middle">{val.productName}</td>
-                <td className="align-middle">{val.price}</td>
+                <td className="align-middle">Rp {val.price}</td>
                 <td className="align-middle">
                     <img src={val.productImage} alt="" style={{height:"125px"}} />
                 </td>
